@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ice Cream</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="upper">
+            <img id="img1" src="resources/logo.jpg"><br>
+            <a href="index.html" id="a1">All About Ice Cream</a>
+            <a href="ice_cream_recipes.html" id="a2">Ice Cream Recipes</a>
+            <a href="health_benefit.html" id="a3">Health Benefit of Ice Cream</a>
+            <a href="ice_cream_qize.html" id="a4">Ice Cream Quiz</a>
+        </div>
+        <div class="middle">
+            <h1>Ice Cream Quiz</h1>
+            <div class="icebox_2" id="abc">
+                <p>Answer:
+                    <ol>
+                        <li>July</li>
+                        <li>vanilla, chocolate, and strawberry</li>
+                        <li>vanilla</li>
+                        <li>root beer, chocolate syrup, and vanilla ice cream</li>
+                    </ol>
+                </p>
+            </div>
+            
+                <p>Question 1: Which month is National Ice Cream Month?</p><br>
+                December<input type="radio"/> April<input type="radio"/> July<input type="radio"/>
+                <br>
+                <p>Question 2: What flavors are usually in Neapolitan ice cream?</p><br>
+                orange lemon and vanilla<input type="radio"/> vanilla chocolate and strawberry<input type="radio"/> chocolate caramel and vanilla<input type="radio"/>
+                <br>
+                <p>Question 3: What is the most popular ice cream flavor?</P><br>
+                chocolate<input type="radio"/> vanilla<input type="radio"/> butter pecan<input type="radio"/>
+                <br>
+                <p>Question 4: What's in a "black cow"?</p><br>
+                cola chocolate syrup and vanilla ice cream<input type="radio"/> root beer chocolate syrup and vanilla ice cream<input type="radio"/> cream soda chocolate syrup and chocolate ice cream<input type="radio"/>
+                <br><br>
+                <button class="btn" onclick= myFunction()>Submit</button>
+                
+            
+        </div>
+        <div class="lower">
+            <p>&copy; 2020 Copyright Reserved</p>
+        </div>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("abc");
+            
+                x.style.display = "block";
+              
+            }
+        </script>            
+    </body>
+</html>
